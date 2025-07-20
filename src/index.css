@@ -1,0 +1,48 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  /* ChatGPT dark theme colors */
+  --bg: #212121;
+  --bg-secondary: #2f2f2f;
+  --border: #4a4a4a;
+  --text: #ececec;
+  --text-light: #b4b4b4;
+  --button: #19c37d;
+  --button-hover: #16a374;
+  --button-disabled: #555555;
+  
+  color: var(--text);
+  background: var(--bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input, textarea {
+  font-family: inherit;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--button);
+  outline-offset: 1px;
+}
